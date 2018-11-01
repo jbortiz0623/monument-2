@@ -1,17 +1,19 @@
 * {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    width: 1000px;
+    display: block;
+    margin: 30px 30px;
 }
 
 h1 a {
     color: #FFCA2B;
     font-size: 62px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+    
+   
 }
 
 a, u {
@@ -19,21 +21,14 @@ a, u {
 }
 
 h2 a {
-    font-family: sans-serif;
     color: rgb(0, 0, 0);
     
 }
 
-header nav {
-    color: white;
-    font-family: Arial Narrow, Arial, sans-serif;
+header nav a {
+    color: gray;
     text-decoration: underline;
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;    
-    
+   
     
     
 }  
@@ -44,68 +39,34 @@ article p::first-letter {
  }
 h3 {
     color: #dbd9d9;
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-size: 42px; 
+  
 }
 
 h4 a {
-    color: #FFCA2B;
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+    color: #FFCA2B; 
     float: right;
 }
 
 footer nav {
     color: #FFCA2B;
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-weight: normal;
-    font-size: 20px;
+
+    font-size: 16px;
     
 
 }
 
 p {
-    text-indent: -2em;
     font-size: 1em;
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-    text-indent: 0;
-    
-    
+    text-indent: inherit;
+   
 }
 
-img {
-    width: 50%;
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-}
 
 h2 {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+   
     font-weight: normal;
 }
 
 article {
-    font-family: Arial Narrow, Arial, sans-serif;  
+    border-bottom: 1px solid black;
 }
